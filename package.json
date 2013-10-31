@@ -1,0 +1,11 @@
+{
+    "name": "timeline",
+    "version": "0.0.0",
+    "description": "Social media archiver",
+    "dependencies": {
+        "request":"latest",
+	"ntwitter":"latest",
+	"instagram-node-lib":"latest"
+    },
+    "author": "Micah Fitzgerald"
+}
