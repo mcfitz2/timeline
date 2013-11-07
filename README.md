@@ -41,4 +41,4 @@ main.js looks for a config.json in the same directory as the script. It should l
 }
 ```
 
-Each object nested under "modules" is passed to the plugin with the same filename as the key. I.E. the "instagram" object is passed to "plugins/instagram.js" as config. The settings object is available to main.js for global settings. 
+Each object nested under "modules" is passed to the plugin with the same filename as the key. I.E. the "instagram" object is passed to "plugins/instagram.js" as a parameter called `config`. The settings object is available to main.js for global settings. 
